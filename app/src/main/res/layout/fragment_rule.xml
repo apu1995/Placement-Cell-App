@@ -1,0 +1,42 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nGeneral guidelines to be followed for placements at campus:\n\n1. The role of the TPC (Training Placement Cell) is of a facilitator for placement related activities.
+TPC does not guarantee a job.\n\n
+2. The placement facility is available to all the students registered with TPC through the policy
+ONE JOB TO ONE STUDENT AT THE FIRST INSTANCE.\n\n
+3. There is no restriction on appearing in interviews until the first job is secured. A student will be
+considered to have secured a job if her/his name appears in the selection list.\n\n4. If student gets multiple offers in the end of a day, she/he will be free to choose any one between
+them.
+\n\n5. Students must keep their Identity Card with them at the time of PPT / Test / Group Discussion /
+Personal Interviews and produce the same when demanded by the visiting team or TPC staff.
+\n\n6. The TPC strongly discourages the students to go for off campus placements in companies that
+are coming to LNMIIT campus, as this affects the company­institute relations adversely.
+\n\n7. Students are also requested to forward contacts they have, if any, in different companies so that
+TPC may formally invite these companies for placements"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+</ScrollView>
+

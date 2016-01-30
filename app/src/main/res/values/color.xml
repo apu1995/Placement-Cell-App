@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!--   <color name="list_item_title">#992416</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#ffff</color>
+    <color name="counter_text_color">#c5c4c4</color>-->
+
+    <!-- <color name="list_background">#FF0800</color>  #003366  #3f9fe0  #3eb489
+     #00CC99 Caribbean Green, #177245 Dark Spring Green, #03C03C Dark Pastel Green
+     #FF8C00 Dark Orange, 	#FF7F00 Orange, #FF7518		Pumpkin-->
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#f0f0f0</color>
+    <color name="list_divider">#ffffff</color>
+    <color name="list_item_title">#3f9fe0</color>
+    <color name="counter_text_color">#ffffff</color>
+    <color name="counter_text_bg">#ffffff</color>
+    <color name="font_color">#000</color>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtBasic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:text="What projects I delved Into"
+        android:textColor="#FF000F"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="\n\nProject Name:"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtBasic2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtDisplayProjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/name"
+        android:layout_toRightOf="@+id/name"
+        android:textColor="#000000"
+        android:ems="40" >
+        <requestFocus />
+    </TextView>
+
+    <TextView
+        android:id="@+id/Fund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Funding Agency:"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtDisplayFundingAgency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/Fund"
+        android:layout_toRightOf="@+id/Fund"
+        android:textColor="#000000"
+        android:ems="40" >
+        <requestFocus />
+    </TextView>
+
+    <TextView
+        android:id="@+id/Des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Description:"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Fund"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtDisplayDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_alignBottom="@+id/Des"
+        android:layout_toRightOf="@+id/Des"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:ems="40"
+        android:gravity="top|left"
+        android:inputType="textMultiLine">
+        <requestFocus />
+    </TextView>
+
+    <TextView
+        android:id="@+id/Duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Duration:"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Des"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtDisplayDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignBottom="@+id/Duration"
+        android:layout_toRightOf="@+id/Duration"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:ems="40">
+        <requestFocus />
+    </TextView>
+
+</RelativeLayout>

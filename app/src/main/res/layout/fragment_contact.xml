@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Feel Free To Contact"
+            android:textColor="#FF000F"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\nMR. SAMAR SINGH"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="15dip"
+            android:layout_below = "@id/textView1"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/des1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name1"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="Training and Placement Officer"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des1"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="samarsing@gmail.com"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/phn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email1"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text=" +91 7597-33-3722"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:id="@+id/call1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/call"
+            android:layout_above="@+id/phn1"
+            android:layout_alignEnd="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\nDR. PREETY SINGH"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="15dip"
+            android:layout_below = "@id/phn1"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/des2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="Faculty Advisor"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/email2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des2"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="prtysingh@gmail.com"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\nMR. SANDEEP SAINI"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="15dip"
+            android:layout_below = "@id/email2"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/des3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name3"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="Faculty Advisor"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/email3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des3"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="sandeep.saini@lnmiit.ac.in"
+            android:layout_marginLeft="15dp"/>
+
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\nSAGAR ARORA"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="15dip"
+            android:layout_below = "@id/email3"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/des4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name4"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="Student Co-Ordinator"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/phn4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des4"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text=" +91 9982-078-877"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:id="@+id/call4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/call"
+            android:layout_alignTop="@+id/des4"
+            android:layout_alignEnd="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\nPARAG JAIN"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="15dip"
+            android:layout_below = "@id/phn4"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/des5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name5"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="Student Co Co-Ordinator"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/phn5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des5"
+            android:textColor="#343434"
+            android:textSize="13dip"
+            android:layout_marginTop="1dip"
+            android:text="+91 8764-029-554"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:id="@+id/call5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/call"
+            android:layout_alignBottom="@+id/phn5"
+            android:layout_alignEnd="@+id/textView1" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

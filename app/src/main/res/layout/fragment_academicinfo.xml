@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView2"
+    android:fillViewport="true"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+
+        <TextView
+            android:id="@+id/txtAcad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="What I have done in my Academic Career"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/spi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="\nS.P.I.(1st Sem):"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/txtAcad2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplaySpi1"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/spi1"
+            android:layout_toRightOf="@+id/spi1"
+            android:textColor="#000000"
+            android:ems="40" />
+
+        <TextView
+            android:id="@+id/spi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="S.P.I.(2nd Sem):"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spi1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplaySpi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spi2"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:ems="40"
+            android:layout_alignTop="@+id/spi2"
+            android:layout_alignStart="@+id/txtDisplaySpi1" />
+
+        <TextView
+            android:id="@+id/spi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="S.P.I.(3rd Sem):"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spi2"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplaySpi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spi3"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignTop="@+id/spi3"
+            android:layout_alignStart="@+id/txtDisplaySpi1" />
+
+        <TextView
+            android:id="@+id/spi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="S.P.I.(4th Sem):"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spi3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplaySpi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spi4"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignTop="@+id/spi4"
+            android:layout_alignStart="@+id/txtDisplaySpi1" />
+
+        <TextView
+            android:id="@+id/spi5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="S.P.I.(5th Sem):"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spi4"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplaySpi5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spi5"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignTop="@+id/spi5"
+            android:layout_alignStart="@+id/txtDisplaySpi1" />
+
+        <TextView
+            android:id="@+id/spi6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="S.P.I.(6th Sem):"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spi5"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplaySpi6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignBottom="@+id/spi6"
+            android:layout_alignTop="@+id/spi6"
+            android:layout_alignStart="@+id/txtDisplaySpi5" />
+
+        <TextView
+            android:id="@+id/cpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="C.P.I:"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spi6"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplayCpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cpi"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="30"
+            android:layout_alignTop="@+id/cpi"
+            android:layout_alignStart="@+id/txtDisplaySpi6" />
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Branch:"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/cpi"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplayBranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/branch"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignTop="@+id/branch"
+            android:layout_alignStart="@+id/txtDisplaySpi5" />
+
+        <TextView
+            android:id="@+id/degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Degree:"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/branch"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplayDegree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/degree"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignTop="@+id/degree"
+            android:layout_alignStart="@+id/txtDisplaySpi5" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Year Of Passing:"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/degree"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txtDisplayYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/year"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:ems="40"
+            android:layout_alignTop="@+id/year"
+            android:layout_alignStart="@+id/txtDisplaySpi5" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar2"
+            android:visibility="gone"
+            android:layout_above="@+id/txtDisplaySpi5"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>

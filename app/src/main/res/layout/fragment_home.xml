@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_vertical"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Director's Messge"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="false"
+        android:textSize="20sp"
+        android:textColor="#ff0000"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="\n\nDear Students,\n\nWelcome to LNMIIT Campus for the academic session 2014 - 15. Past couple of years would have been full of hard work and anxiety for you and your parents. This is the first step in your professional career. Let it not be tentative but a firm one. Having decided to be in the Engineering Profession, make the best use of the time, energy and the opportunities provided to you at LNMIIT. In this endeavor self discipline and healthy lifestyle would be crucial.\n\nWe understand that adjusting to a new environment away from home will take some time. But soon these days will pass and you would be comfortable in this new home away from home. There are avenues available to you for your creative expression and talent which you would come to know in due course of time. Apart from academics all these are essential for your overall personality development. Wishing you fruitful and productive stay at LNMIIT.\n\nProf. S. S. Gokhale\nDirector"
+            android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="true" />
+
+
+
+</RelativeLayout>
+
+    </ScrollView>

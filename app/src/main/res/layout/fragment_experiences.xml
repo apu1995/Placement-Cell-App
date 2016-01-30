@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Res1">
+
+
+        <TextView
+            android:id="@+id/txtBasic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dip"
+            android:layout_marginTop="25dp"
+            android:text="My Internship Details"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FF5A36"/>
+
+        <TextView
+            android:id="@+id/txtDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+
+            android:textColor="#000000"
+            android:text="Intern Detail : "
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/txtBasic2"
+            android:layout_alignStart="@+id/txtBasic2" />
+
+        <TextView
+            android:id="@+id/txtDisplayDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:ems="7"
+            android:layout_alignTop="@+id/txtDetail"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="46dp" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="Intern Title : "
+            android:layout_marginTop="53dp"
+            android:layout_below="@+id/txtPlace"
+            android:layout_alignStart="@+id/txtPlace" />
+
+        <TextView
+            android:id="@+id/txtTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text=""
+            android:ems="7"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txtDisplayDetail"
+            android:layout_alignEnd="@+id/txtDisplayDetail"
+            android:layout_marginTop="29dp" />
+
+
+
+        <TextView
+            android:id="@+id/txtPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="Intern Place : "
+
+            android:layout_below="@+id/txtTitle2"
+            android:layout_alignEnd="@+id/txtDetail" />
+        <TextView
+            android:id="@+id/txtDisplayPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text=""
+            android:ems="7"
+            android:layout_alignTop="@+id/txtTitle"
+            android:layout_alignStart="@+id/txtTitle2" />
+
+        <TextView
+            android:id="@+id/txtStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="Start Date :"
+            android:layout_below="@+id/txtTitle"
+            android:layout_alignStart="@+id/txtTitle"
+            android:layout_marginTop="57dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text=""
+            android:ems="7"
+            android:id="@+id/txtDisplayStart"
+            android:layout_alignTop="@+id/txtStart"
+            android:layout_alignStart="@+id/txtTitle2" />
+
+        <TextView
+            android:id="@+id/txtEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="End Date : "
+            android:layout_marginTop="62dp"
+            android:layout_below="@+id/txtStart"
+            android:layout_alignStart="@+id/txtStart" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text=""
+            android:ems="7"
+            android:id="@+id/textEnd"
+            android:layout_alignTop="@+id/txtEnd"
+            android:layout_alignStart="@+id/txtTitle2" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarExperiences"
+            android:visibility="gone"
+            android:layout_alignTop="@+id/txtTitle"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>

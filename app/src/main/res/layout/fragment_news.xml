@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="TRENDING NEWS"
+            android:textColor="#FF000F"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nMr Sam Pitroda with us for an interactive E-Session"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Techno-Management-Literary festival, Plinth, The LNMIIT, Jaipur brings some of the most eminent speaker's of our country together.\n"
+            android:id="@+id/textView5"
+            android:textSize="15dp"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nOutreach Program : BARC"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The LNM Institute Of Information Technology - Jaipur was graced by the presence of two of the most elite scientist of Bhabha Atomic Research Centre India (BARC) on February 3, 2015."
+            android:id="@+id/textView7"
+            android:textSize="15dp"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nProf. Rajeev Malhotra"
+            android:id="@+id/textView8"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView7"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Techno-Management-Literary festival Plinth, The LNMIIT, Jaipur brings to a pre-fest talk session by Prof. Rajeev Malhotra."
+            android:id="@+id/textView9"
+            android:textSize="15dp"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
